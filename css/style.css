@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 30px;
+    background: orange;
+    border: none;
+    padding-left:20px;
+    padding-right: 20px;
+    color: white;
+}
+.button_1:hover{
+    color:rgb(103, 229, 128) ;
+    font-weight: lighter;
+}
+
+.dark{
+    padding: 15px;
+    background: rgb(80, 143, 80);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Header*/
+header{
+    background: green;
+    color: white;
+    padding-top: 40px;
+    min-height: 50px;
+    border-bottom: lightyellow 3px solid;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top:20px;
+}
+header .highlight, header .current a{
+    color: orange;
+    font-weight: bold;
+}
+header a:hover{
+    color:rgb(103, 229, 128) ;
+    font-weight: bold;
+}
+.highlight{
+    color:green;
+    font-weight: bold;
+}
+.highlight_1{
+    color:gold;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Showcase*/
+
+#showcase {
+    margin: 0;
+    padding: 0;  /* Remove top and bottom padding */
+    min-height: 500px;
+    background: url('../img/zoro.jpg') no-repeat center;
+    background-size: cover;  /* Ensure the image covers the area */
+    background-position: center top;  /* Position the image at the top */
+    display: flex;  /* Use Flexbox for centering */
+    flex-direction: column;  /* Arrange children in a column */
+    justify-content: center;  /* Center children vertically */
+    text-align: center;
+    color: white;
+}
+
+#showcase h1 {
+      /* Remove top margin */
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/*Newsletter*/
+
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: green;
+}
+
+#newsletter h1{
+    float: left;
+
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+
+}
+#newsletter input[type="email"]{
+    padding:4px;
+    height: 25px;
+    width: 250px;
+}
+
+/*Boxes*/
+
+#boxes{
+    margin-top: 20px;
+
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 200px;
+    min-height: auto;
+}
+#boxes .box_1 img{
+    width: 250px;
+    min-height: auto;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+#boxes .box_1{
+    text-align: center;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+/*Sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+footer{
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(5, 113, 18);
+    text-align: center;
+}
